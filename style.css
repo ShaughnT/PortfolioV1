@@ -4,10 +4,11 @@
     box-sizing: border-box;
 
 }
+
+
 .topHeader {
     background-color:#1f2937;
     display: flex;
-    box-sizing: border-box;
     width: 100%;
     height: 550px;
     flex-direction: column;
@@ -18,7 +19,7 @@
     font-size: 24px;
     color: #f9faf8;
 }
-.headLinks, .MainText {
+.headLinks, .mainText {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -53,4 +54,87 @@
     border-radius: 10%;
     width: 100px;
     height: 50px;
+}
+
+
+.information {
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.infoHeader {
+    padding: 50px;
+}
+.projectsContainer {
+    border: green solid 3px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+.cardImg {
+    border: 3px solid rgb(0, 225, 255);
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+
+}
+.cards {
+    border: 3px solid yellow;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex: 1;
+
+
+}
+.card {
+    padding: 50px;
+}
+
+
+.quote {
+    border: 3px solid red;
+    background-color: #E5E7EB;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+.quoteTextContainer {
+    border: 3px solid green;
+    padding: 50px;
+}
+.quoteText {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quoteAuthorContainer {
+border: 3px solid orange;
+width: 300;
+
+}
+.quoteAuthorText {
+    font-weight: 900;
+
+
+}
+
+.callToAction {
+    border: 3px solid purple;
+    height: 200px;
+    width: 100%;
+}
+
+
+.footer {
+    border: 3px solid skyblue;
+    height: 100px;
 }
